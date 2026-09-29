@@ -1,0 +1,833 @@
+file,activity_type,display_name,selector
+DCC/AdditionalInformationUpdate.xaml,ui:BrowserScope,Attach Browser - Additional Information Values,<html app='{{in_uiApp}}' title='D*' />
+DCC/AdditionalInformationUpdate.xaml,ui:Target,,<webctrl name='shipmentVO.registrationNumberVOCol[{{intCount}}].registrationNo' tag='INPUT' type='text' />
+DCC/AdditionalInformationUpdate.xaml,ui:Target,,<webctrl name='shipmentVO.registrationNumberVOCol[{{intCount}}].registrationNo' tag='INPUT' type='text' />
+DCC/AdditionalInformationUpdate.xaml,ui:Target,,<webctrl name='shipmentVO.registrationNumberVOCol[{{intCount}}].registrationNo' tag='INPUT' type='text' />
+DCC/AdditionalInformationUpdate.xaml,ui:Target,,<webctrl name='shipmentVO.registrationNumberVOCol[{{intCount}}].registrationType' tag='SELECT' type='select-one' />
+DCC/AdditionalInformationUpdate.xaml,ui:Target,,<webctrl name='shipmentVO.registrationNumberVOCol[{{intCount}}].registrationCtryCd' tag='SELECT' type='select-one' />
+DCC/AdditionalInformationUpdate.xaml,ui:Target,,<webctrl name='shipmentVO.registrationNumberVOCol[{{intCount}}].registrationCustRole' tag='SELECT' type='select-one' />
+DCC/AdditionalInformationUpdate.xaml,ui:Target,,<webctrl tag='IMG' aaname='Add Registration Number' />
+DCC/AdditionalInformationUpdate.xaml,ui:Target,,<webctrl tag='IMG' aaname='Add Registration Number' tableRow='{{intTableRow}}' />
+DCC/AdditionalInformationUpdate.xaml,ui:Target,,<webctrl name='shipmentVO.registrationNumberVOCol[{{intCount}}].registrationNo' tag='INPUT' type='text' colName='BRN Number' />
+DCC/CheckFlightAlert.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='Filter Shipments' />
+DCC/CheckFlightAlert.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+DCC/CheckFlightAlert.xaml,ui:Target,,<webctrl tag='FONT' aaname='* ' isleaf='1' parentname='pendingCleansingShipmentDetailForm' />
+DCC/CheckFlightAlert.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='TDoc:' />
+DCC/CityDrop.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance &amp; Classification' />
+DCC/CityDrop.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance &amp; Classification' />
+DCC/CloseDCC.xaml,ui:BrowserScope,Attach DCC,<html app='{{in_UiApp}}' title='D*' />
+DCC/CloseDCC.xaml,ui:Target,,<webctrl aaname='*Logout*' tag='A' />
+DCC/CloseDCC.xaml,ui:Target,,<webctrl tag='FONT' aaname='You have successfully logged out of DCC application ' />
+DCC/CloseDCC.xaml,ui:Target,,<webctrl tag='FONT' aaname='Your session has expired. Please login again. ' />
+DCC/ConsigneeStateCodeValidation - Copy.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance &amp; Classification' />
+DCC/ConsigneeStateCodeValidation - Copy.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html app='{{UiApp}}' title='Data Compliance &amp; Classification' />
+DCC/ConsigneeStateCodeValidation.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+DCC/ConsigneeStateCodeValidation.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+DCC/DCCSearchLookUp.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_uiApp}}' title='D*' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl aaname='Receiver/Shipper Information*' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.name' tag='INPUT' type='text' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl tag='IMG' href='*/dcc/images/look-up.gif' />
+DCC/DCCSearchLookUp.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_uiApp}}' title='Customer' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl name='customerFilterVO.name' tag='INPUT' />
+DCC/DCCSearchLookUp.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_uiApp}}' title='Customer' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl name='customerFilterVO.{{in_filterField}}' tag='INPUT' type='text' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl name='search' tag='INPUT' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl tag='TABLE' idx='4' /><webctrl tag='TD' class='table_customer' idx='1' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl name='customerFilterVO.{{in_filterField}}' tag='INPUT' />
+DCC/DCCSearchLookUp.xaml,ui:BrowserScope,Attach Customers Search Page,<html app='{{in_uiApp}}' title='Customer' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl parentid='Layer4' tag='TABLE' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<wnd app='{{in_uiApp}}' cls='Chrome_WidgetWin_1' title='Customer*' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Customer' />
+DCC/DCCSearchLookUp.xaml,ui:BrowserScope,Close DCC Search,<html app='{{in_UiApp}}' title='Customer' />
+DCC/DCCSearchLookUp.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+DCC/DCCSearchLookUp.xaml,ui:Target,,<webctrl aaname='Shipment Information*' tag='A' />
+DCC/DCC_Logout.xaml,ui:WindowScope,Attach DCC Window,<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+DCC/DCC_Logout.xaml,ui:Target,,<webctrl idx='1' tag='BODY' />
+DCC/DCC_Logout.xaml,ui:Target,,<webctrl idx='1' tag='BODY' />
+DCC/DCC_UnlockUser.xaml,ui:Target,,<html app='{{in_uiApp}}' title='D*' /><webctrl aaname='Logout*' tag='A' />
+DCC/GetConsignee.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl isleaf='1' parentid='consignee' tableRow='1' tag='STRONG' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.name' tag='INPUT' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.addressStructureDetailVOCol[6].fieldValue' tag='INPUT' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipperVO.name' tag='INPUT' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipperVO.addressStructureDetailVOCol[6].fieldValue' tag='INPUT' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl aaname='Shipment Information*' idx='13' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.categoryCode' tag='SELECT' tableCol='4' tableRow='7' />
+DCC/GetConsignee.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' rowName='Insurance Curr/Amt:' tableCol='4' tableRow='4' type='select-one' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+DCC/GetConsignee.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' tableCol='4' tableRow='4' />
+DCC/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+DCC/GetLineItems.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+DCC/GetLineItems.xaml,ui:Target,,<webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+DCC/GetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.currencyCode' tag='INPUT' />
+DCC/GetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strValue' tag='INPUT' />
+DCC/GetPNRStatus.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+DCC/LineItemTranslate.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+DCC/LineItemTranslate.xaml,ui:Target,,<webctrl idx='1' tag='STRONG' />
+DCC/LoginDCC.xaml,ui:Target,,<html app='msedge.exe' title='DCC - Session Time Out' /><webctrl tag='FONT' />
+DCC/LoginDCC.xaml,ui:Target,,<html app='msedge.exe' title='DCC - Session Time Out' /><webctrl tag='INPUT' type='submit' />
+DCC/LoginDCC.xaml,ui:BrowserScope,Attach DCC Login,<html app='{{in_UiApp}}' title='D*' />
+DCC/LoginDCC.xaml,ui:Target,,<webctrl name='userId' tag='INPUT' />
+DCC/LoginDCC.xaml,ui:Target,,<webctrl name='password' tag='INPUT' />
+DCC/LoginDCC.xaml,ui:Target,,<webctrl name='serviceArea' tag='INPUT' />
+DCC/LoginDCC.xaml,ui:Target,,<webctrl name='facility' tag='INPUT' />
+DCC/LoginDCC.xaml,ui:Target,,<webctrl tag='INPUT' aaname='Login' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Internet Explorer' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='jp2launcher.exe' cls='SunAwtDialog' title='Java Application Blocked' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Internet Explorer' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='jp2launcher.exe' cls='SunAwtDialog' title='Java Application Blocked' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='jp2launcher.exe' cls='SunAwtDialog' title='Java Application Blocked' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' title='Internet Explorer' />
+DCC/NavToCleansing.xaml,ui:BrowserScope,Attach DCC Main Page,<html title='D*' app='{{in_UiApp}}' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='jp2launcher.exe' cls='SunAwtDialog' title='Java Application Blocked' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' title='Internet Explorer' /><ctrl name='Internet Explorer' role='dialog' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Internet Explorer' /><wnd ctrlid='65535' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' title='Internet Explorer' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' title='Internet Explorer' /><wnd ctrlid='20002' title='&amp;Do * ' />
+DCC/NavToCleansing.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Internet Explorer' /><wnd ctrlid='1' title='OK' />
+DCC/NavToCleansing.xaml,ui:BrowserScope,Attach DCC Main Page,<html title='D*' app='{{in_UiApp}}' />
+DCC/NavToCleansing.xaml,ui:Target,,<webctrl tag='SPAN' aaname='Existing Shipment Records' />
+DCC/NavToCleansing.xaml,ui:Target,,<webctrl tag='SPAN' aaname='Existing Shipment Records' />
+DCC/NavToCleansing.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='Filter Shipments' />
+DCC/NavToCleansing.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+DCC/NavToCleansing.xaml,ui:Target,,<webctrl tag='TD' aaname='First | Previous |*' />
+DCC/SelectFirstRowDCCSearch.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='Customer' />
+DCC/SelectFirstRowDCCSearch.xaml,ui:Target,,<webctrl tag='A' tableRow='1' parentid='Layer4' idx='1' />
+DCC/SelectFirstRowDCCSearch.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' />
+DCC/SelectFirstRowDCCSearch.xaml,ui:WindowScope,Attach Window,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' />
+DCC/SelectFirstRowDCCSearch.xaml,ui:Target,,<wnd ctrlid='2' title='OK' />
+DCC/SelectFirstRowDCCSearch.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+DCC/SetLineItems.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+DCC/SetLineItems.xaml,ui:Target,,"[""<html app='""+in_UiApp+""'title='D*' />""+
+""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.currencyCode' tag='INPUT' />""]"
+DCC/SetLineItems.xaml,ui:Target,,"[""<html app='""+in_UiApp+""'title='D*' />""+
+""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.strValue' tag='INPUT' />""]"
+DCC/SetLineItemsInDCC.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+DCC/SetLineItemsInDCC.xaml,ui:Target,,<webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+DCC/SetLineItemsInDCC.xaml,ui:Target,,<webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+DCC/SetLineItemsInDCC.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.currencyCode' tag='INPUT' />
+DCC/SetLineItemsInDCC.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strValue' tag='INPUT' />
+DCC/Validate Description.xaml,ui:WindowScope,Attach Window SHERLOC,<html app='{{in_UiApp}}' title='SHERLOC' />
+DCC/Validate Description.xaml,ui:Target,,<webctrl id='hwbOrPiece' tag='INPUT' name='hwbOrPiece' parentname='queryForm' type='text' />
+DCC/Validate Description.xaml,ui:Target,,<webctrl aaname='search' tag='I' />
+DCC/Validate Description.xaml,ui:Target,,<webctrl aaname='Destination' tag='SPAN' />
+DCC/Validate Description.xaml,ui:Target,,<webctrl tableRow='1' tag='SPAN' colName='  Content* ' tableCol='4' idx='2' />
+DCC/Validate Description.xaml,ui:Target,,<webctrl tag='SPAN' rowName='Origin*' aaname='*' tableRow='1' />
+DCC/Validate Description.xaml,ui:BrowserScope,Attach Sherloc,<html app='{{in_UiApp}}' title='SHERLOC' />
+DCC/Validate Description.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data' 1,<html app='{{in_UiApp}}' title='D*' />
+DCC/Validate Description.xaml,ui:Target,,<webctrl idx='1' tag='STRONG' />
+DCC/Validate Description.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+DCC/Validate Description.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data' 2,<html app='{{in_UiApp}}' title='D*' />
+DCC/Validate Description.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data' 3,<html app='{{in_UiApp}}' title='D*' />
+DCC/Validate Description.xaml,ui:Target,,<webctrl idx='1' tag='STRONG' />
+DCC/Validate Description.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+DCC/ValidateLineItemsDescriptions.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html app='{{in_UiApp}}' title='D*' />
+DCC/ValidateLineItemsDescriptions.xaml,ui:Target,,<webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+DCC/ValidateLineItemsDescriptions.xaml,ui:Target,,<webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+DCC/ValidateLineItemsDescriptions.xaml,ui:Target,,<webctrl tag='TEXTAREA' tableCol='4' name='{{selectorString}}' />
+DCC/ValidateLineValues.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html app='{{in_UiApp}}' title='D*' />
+DCC/ValidateLineValues.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.strTotalCustomValue' tag='INPUT' />
+DCC/ValidateLineValues.xaml,ui:Target,,<webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+DCC/ValidateLineValues.xaml,ui:Target,,<webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+DCC/Value Validation.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+DCC/Value Validation.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[0].lineItemPortVO.currencyCode' tag='INPUT' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='Filter Shipments' />
+Framework Utils/NextItemValidation.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<webctrl aaname='* ' tag='FONT' isleaf='1' parentid='Layer4' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='TDoc:' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<webctrl tag='TD' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='TDoc:' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl aaname='Logout*' tag='A' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='SPAN' aaname='Setup' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,"<html app='{{in_UiApp}}' title='D*' />
+<webctrl tag='SPAN' aaname='Existing Shipment Records' />
+"
+Framework Utils/NextItemValidation.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='User ID:' />
+Framework Utils/NextItemValidation.xaml,ui:BrowserScope,Attach Browser ,<html app='{{in_UiApp}}' title='D*' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<webctrl tag='FONT' aaname='*is already logged* ' />
+Framework Utils/NextItemValidation.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<webctrl tag='TD' aaname='First | Previous |*' />
+Framework Utils/NextItemValidation.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<webctrl aaname='* ' tag='FONT' isleaf='1' parentid='Layer4' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='TDoc:' />
+Framework Utils/NextItemValidation.xaml,ui:Target,,"[""<html app='""+in_UiApp+""' title='D*' /><webctrl tag='TD' aaname='*Data ""+uiSelectorFlag.Trim+""*To do ' />""]"
+Framework Utils/NextItemValidation.xaml,ui:Target,,"[""<html app='""+in_UiApp+""' title='D*' /><webctrl tag='TD' aaname='*Data ""+uiSelectorFlag.Trim+""*To do ' />""]"
+Framework Utils/RecoverKill.xaml,ui:Target,,<html app='{{in_UiApp}}' />
+Framework Utils/RecoverLogOut.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl aaname='Logout*' tag='A' />
+Framework Utils/RecoverLogOut.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Framework Utils/RecoverLogOut.xaml,ui:Target,,<webctrl aaname='Logout*' tag='A' />
+Framework Utils/RecoverLogOut.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='FONT' aaname='You have successfully logged out of DCC application ' />
+Framework Utils/RecoverLogOut.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='FONT' aaname='Your session has expired. Please login again. ' />
+Framework Utils/RefreshQueue.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='Filter Shipments' />
+Framework Utils/RefreshQueue.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Framework Utils/RefreshQueue.xaml,ui:Target,,<webctrl tag='FONT' aaname='* ' isleaf='1' parentname='pendingCleansingShipmentDetailForm' />
+Framework Utils/RefreshQueue.xaml,ui:Target,,<webctrl tag='TD' aaname='TDoc:' />
+Framework Utils/ShouldStopCloseDCC.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl aaname='*Logout*' tag='A' />
+Framework Utils/ValidateErrorFieldFormat.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='System error occured while processing your request*' />
+Framework Utils/WaitNextRecord.xaml,ui:Target,,"[""<html app='""+in_UiApp+""' title='D*' /><webctrl tag='TD' aaname='*Data ""+uiSelectorFlag.Trim+""*To do*' />""]"
+Framework Utils/WaitNextRecord.xaml,ui:Target,,<html app='{{in_UiApp}}' title='*Data*' /><webctrl aaname='*No records available*' colName='*No records available*' />
+Framework Utils/WaitNextRecord.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Framework Utils/WaitNextRecord.xaml,ui:Target,,"[""<webctrl tag='TD' aaname='*Data ""+uiSelectorFlag+""*To do ' />""]"
+Framework Utils/WaitNextRecord.xaml,ui:Target,,"[""<webctrl tag='TD' aaname='*Data ""+uiSelectorFlag+""*To do ' />""]"
+Framework/KillAllProcesses.xaml,ui:Target,,<wnd app='{{in_UiApp}}' />
+Framework/KillAllProcesses.xaml,ui:Target,,<html app='msedge.exe' title='D*' /><webctrl tag='FONT' aaname='Your session has expired. Please login again. ' />
+Framework/OpenWebsite.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='allabolag.se*' />
+Framework/OpenWebsite.xaml,ui:Target,,<webctrl name='what' tag='INPUT' />
+GCCP/GCCP.xaml,ui:WindowScope,Extract Line Item,<html app='{{in_uiApp}}' title='Data Compliance &amp; Classification' />
+GCCP/GCCP.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentTransactionTypeClassification' tag='SELECT' type='select-one' />
+GCCP/GCCP.xaml,ui:Target,,<html app='msedge.exe' title='Data Compliance &amp; Classification' /><webctrl id='sirgBtn' tag='INPUT' type='text' />
+GCCP/GCCP.xaml,ui:Target,,<webctrl tag='SELECT' type='select-multiple' />
+GCCP/GCCP.xaml,ui:Target,,<webctrl tag='SELECT' type='select-multiple' />
+GCCP/GCCP.xaml,ui:Target,,<webctrl id='sirgListView' tag='DIV' />
+GCCP/GCCP.xaml,ui:Target,,<webctrl id='createECaseBtn' tag='INPUT' type='button' />
+GCCP/GCCP.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' />
+GCCP/GCCP.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='2' title='OK' />
+GCCP/GCCPExtractLineItem.xaml,ui:WindowScope,Attach Window 'msedge.exe Data',<html app='{{in_uiApp}}' title='Data Compliance &amp; Classification' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].partNo' tag='INPUT' type='text' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].partNo' tag='INPUT' type='text' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].description' tag='TEXTAREA' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].descriptionLocal' tag='TEXTAREA' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].descriptionLocal' tag='TEXTAREA' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.currencyCode' tag='INPUT' type='text' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].strQuantity' tag='INPUT' type='text' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.uomAndUomSystem' tag='SELECT' type='select-one' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strUnitPrice' tag='INPUT' type='text' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strNetWeight' tag='INPUT' type='text' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strValue' tag='INPUT' type='text' />
+GCCP/GCCPExtractLineItem.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].originCountryCode' tag='INPUT' type='text' />
+GetBusinessData/GetConsignee.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+GetBusinessData/GetConsignee.xaml,ui:Target,,<webctrl isleaf='1' parentid='consignee' tableRow='1' tag='STRONG' />
+GetBusinessData/GetConsignee.xaml,ui:Target,,<webctrl aaname='Shipment Information*' />
+GetBusinessData/GetConsignee.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe Data',<html app='{{in_UiApp}}' title='Data Compliance * Classification' />
+GetBusinessData/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetConsignee.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html app='{{in_UiApp}}' title='D*' />
+GetBusinessData/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetConsignee.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetShipmentData.xaml,ui:BrowserScope,Attach Browser 'DDC',<html title='Data Compliance * Classification' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl css-selector='body&gt;form&gt;table&gt;tbody&gt;tr&gt;td&gt;table' parentname='pendingCleansingShipmentDetailForm' tag='TABLE' /><webctrl idx='1' tag='TD' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl tableCol='2' tag='TD' aaname='Receiver/Shipper Information ' parentid='generall' parentname='pendingCleansingShipmentDetailForm' tableRow='1' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl parentname='pendingCleansingShipmentDetailForm' tag='TABLE' idx='2' /><webctrl tag='TD' aaname=' Data Cleansing - * - * Line item(s)     * To do ' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl tag='TD' aaname=' Data Cleansing - * - * Line item(s)     * To do ' rowName=' Data Cleansing - * - * Line item(s)     * To do ' tableCol='1' tableRow='1' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><ctrl name='Message from webpage' role='dialog' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><ctrl name='Message from webpage' role='dialog' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='1' title='OK' aaname='OK' cls='Button' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><ctrl name='Message from webpage' role='dialog' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl parentid='generall' tag='TABLE' isleaf='0' rowName='Shipment Information' idx='1' /><webctrl tableCol='2' tag='TD' aaname='Shipment Information' colName='Shipment Information' tableRow='1' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl css-selector='body&gt;form&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table' idx='1' parentname='pendingCleansingShipmentDetailForm' tag='TABLE' /><webctrl isleaf='1' tableRow='1' tag='TD' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl isleaf='1' parentid='consignee' tableRow='1' tag='STRONG' aaname='Receiver/Shipper Information' tableCol='2' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl css-selector='body&gt;form&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table' idx='1' parentname='pendingCleansingShipmentDetailForm' tag='TABLE' /><webctrl isleaf='1' tableRow='1' tag='TD' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl tag='STRONG' aaname='Shipment Information' isleaf='1' tableCol='2' tableRow='1' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><ctrl name='Message from webpage' role='dialog' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><ctrl name='Message from webpage' role='dialog' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='1' title='OK' aaname='OK' cls='Button' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><ctrl name='Message from webpage' role='dialog' />
+GetBusinessData/GetShipmentData.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html title='Data Compliance * Classification' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Cleansing * Classification' /><webctrl isleaf='1' tableRow='1' tag='FONT' parentname='pendingCleansingShipmentDetailForm' tableCol='2' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl isleaf='1' tableRow='1' tag='FONT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl isleaf='1' tableRow='1' tag='FONT' />
+GetBusinessData/GetShipmentData.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html title='Data Compliance * Classification' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl aaname='Cancel' name='method' parentid='consignee' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl isleaf='1' tableRow='1' tag='FONT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.name' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipperVO.name' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.addressStructureDetailVOCol[0].fieldValue' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipperVO.addressStructureDetailVOCol[0].fieldValue' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.addressStructureDetailVOCol[4].fieldValue' tag='INPUT' rowName='City: ' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.addressStructureDetailVOCol[5].fieldValue' tag='INPUT' rowName='State Code: ' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.addressStructureDetailVOCol[6].fieldValue' tag='INPUT' rowName='Postal Code: ' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl idx='1' tag='STRONG' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetShipmentData.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html title='Data Compliance &amp; Classification' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.name' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipperVO.name' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.addressStructureDetailVOCol[0].fieldValue' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipperVO.addressStructureDetailVOCol[0].fieldValue' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.addressStructureDetailVOCol[4].fieldValue' tag='INPUT' rowName='City: ' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.addressStructureDetailVOCol[5].fieldValue' tag='INPUT' rowName='State Code: ' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.addressStructureDetailVOCol[6].fieldValue' tag='INPUT' rowName='Postal Code: ' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl name='shipmentVO.billToAccountNumber' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl idx='1' tag='STRONG' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' tableCol='4' tableRow='4' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.name' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.consigneeVO.name' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl idx='1' tag='STRONG' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' tableCol='4' tableRow='4' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipperVO.name' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipperVO.name' tag='INPUT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl idx='1' tag='STRONG' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.acaHoldStatusCode' tag='SELECT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.shipmentPortVO.categoryCode' tag='SELECT' />
+GetBusinessData/GetShipmentData.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[0].description' tag='TEXTAREA' />
+LineItemsAPITrans/LineItemsAPITransModifyDescription.xaml,ui:WindowScope,Attach Window 'msedge.exe Data',<html app='{{in_UiApp}}' title='Data Compliance &amp; Classification' />
+LineItemsAPITrans/LineItemsAPITransModifyDescription.xaml,ui:Target,,<webctrl name='shipmentVO.noOfPieces' tag='INPUT' type='text' />
+LineItemsAPITrans/LineItemsAPITransModifyDescription.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{shipmentItemId}}].descriptionLocal' tag='TEXTAREA' />
+LineItemsAPITrans/LineItemsAPITransModifyDescription.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{shipmentItemId}}].descriptionLocal' tag='TEXTAREA' />
+LineItemsAPITrans/LineItemsAPITransModifyDescription.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{shipmentItemId}}].description' tag='TEXTAREA' />
+Main.xaml,ui:Target,,<html app='{{UiApp}}' title='D*' /><webctrl aaname='*Logout*' tag='A' />
+Main.xaml,ui:Target,,"<html app='{{in_UiApp}}' title='D*' />
+<webctrl tag='SPAN' aaname='Existing Shipment Records' />
+"
+Main.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl aaname='Logout*' tag='A' />
+Main.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='SPAN' aaname='Setup' />
+Main.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='User ID:' />
+Main.xaml,ui:BrowserScope,Attach Browser ,<html app='{{in_UiApp}}' title='D*' />
+Main.xaml,ui:Target,,<webctrl tag='FONT' aaname='*is already logged in or has logged out improperly in the last session ' />
+NewVersionReEngineering/GCCP/NVGCCP.xaml,ui:WindowScope,GCCP Process,<html app='{{in_uiApp}}' title='Data Compliance &amp; Classification' />
+NewVersionReEngineering/GCCP/NVGCCP.xaml,ui:Target,,<html app='msedge.exe' title='Data Compliance &amp; Classification' /><webctrl id='sirgBtn' tag='INPUT' type='text' />
+NewVersionReEngineering/GCCP/NVGCCP.xaml,ui:Target,,<webctrl tag='SELECT' type='select-multiple' />
+NewVersionReEngineering/GCCP/NVGCCP.xaml,ui:Target,,<webctrl tag='SELECT' type='select-multiple' />
+NewVersionReEngineering/GCCP/NVGCCP.xaml,ui:Target,,<webctrl id='sirgListView' tag='DIV' />
+NewVersionReEngineering/GCCP/NVGCCP.xaml,ui:Target,,<webctrl id='createECaseBtn' tag='INPUT' type='button' />
+NewVersionReEngineering/GCCP/NVGCCP.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' />
+NewVersionReEngineering/GCCP/NVGCCP.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='2' title='OK' />
+NewVersionReEngineering/NVLineItemsAPITranslation/NVLineItemsAPITransModifyDescription.xaml,ui:WindowScope,Attach Window 'msedge.exe Data',<html app='{{in_UiApp}}' title='Data Compliance &amp; Classification' />
+NewVersionReEngineering/NVLineItemsAPITranslation/NVLineItemsAPITransModifyDescription.xaml,ui:Target,,<webctrl name='shipmentVO.noOfPieces' tag='INPUT' type='text' />
+NewVersionReEngineering/NVLineItemsAPITranslation/NVLineItemsAPITransModifyDescription.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{shipmentItemId}}].descriptionLocal' tag='TEXTAREA' />
+NewVersionReEngineering/NVLineItemsAPITranslation/NVLineItemsAPITransModifyDescription.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{shipmentItemId}}].descriptionLocal' tag='TEXTAREA' />
+NewVersionReEngineering/NVLineItemsAPITranslation/NVLineItemsAPITransModifyDescription.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{shipmentItemId}}].description' tag='TEXTAREA' />
+NewVersionReEngineering/Utils/NVDCCCheckImage.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><wnd cls='ToolbarWindow32' title='Main' /><ctrl name='Main' role='tool bar' /><ctrl name='Save/Save As...' role='push button' />
+NewVersionReEngineering/Utils/NVDCCGetInformation.xaml,ui:Target,,"<html app='msedge.exe' title='D*' />
+<webctrl isleaf='1' aaname='*Supervisor*' />
+"
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:WindowScope,Attach Window 'msedge.exe Data',<html app='{{in_uiApp}}' title='Data Compliance &amp; Classification' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].partNo' tag='INPUT' type='text' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].partNo' tag='INPUT' type='text' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].description' tag='TEXTAREA' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].descriptionLocal' tag='TEXTAREA' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].descriptionLocal' tag='TEXTAREA' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.currencyCode' tag='INPUT' type='text' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].strQuantity' tag='INPUT' type='text' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.uomAndUomSystem' tag='SELECT' type='select-one' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strUnitPrice' tag='INPUT' type='text' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strNetWeight' tag='INPUT' type='text' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strValue' tag='INPUT' type='text' />
+NewVersionReEngineering/Utils/NVDCCGetLineItems.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].originCountryCode' tag='INPUT' type='text' />
+NewVersionReEngineering/Utils/NVDCCGetPIIItems.xaml,ui:WindowScope,Attach Window - validate if exists PII tab,<html app='{{in_uiApp}}' title='Data Compliance &amp; Classification' />
+NewVersionReEngineering/Utils/NVDCCGetPIIItems.xaml,ui:Target,,<webctrl aaname='*PII' parentid='generall' tag='A' />
+NewVersionReEngineering/Utils/NVDCCGetPIIItems.xaml,ui:BrowserScope,Attach Browser - PII capturing data process,<html app='{{in_uiApp}}' title='Data Compliance &amp; Classification' />
+NewVersionReEngineering/Utils/NVDCCGetPIIItems.xaml,ui:WindowScope,Attach Window - PII capturing data process,<html app='{{in_uiApp}}' title='Data Compliance &amp; Classification' />
+NewVersionReEngineering/Utils/NVGetData.xaml,ui:BrowserScope,Attach Data Cleansing Record,<html app='{{in_UiApp}}' title='D*' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<html app='msedge.exe' title='Data*' /><webctrl aaname='*Logout*' tag='A' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl aaname='*Logout*' tag='A' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='2' title='OK' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<wnd app='iexplore.exe' title='Message from webpage' /><wnd title='OK' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,"<html app='msedge.exe' url='*dcc*' />
+<webctrl tag='B' aaname='Error occured while accessing the page*' />"
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:BrowserScope,Attach Browser -  to navigate to Specific URL,<html app='msedge.exe' url='*dcc*' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:BrowserScope,Attach Browser - to navigate to Specific URL,<html app='msedge.exe' url='*dcc*' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<html app='msedge.exe' title='D*' /><webctrl tag='TD' aaname='No records available ' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:BrowserScope,Attach Browser DCC,<html app='msedge.exe' title='D*' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<webctrl aaname='* ' tag='FONT' isleaf='1' parentid='Layer4' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<html app='msedge.exe' title='Data Compliance &amp; Classification' /><webctrl idx='1' parentid='generall' tag='A' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<html app='msedge.exe' title='Data Compliance &amp; Classification' /><webctrl parentname='pendingCleansingShipmentDetailForm' tag='TABLE' /><webctrl isleaf='1' tag='TD' parentname='pendingCleansingShipmentDetailForm' tableCol='1' tableRow='3' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<html app='msedge.exe' title='Data Compliance &amp; Classification' /><webctrl parentname='pendingCleansingShipmentDetailForm' tag='TABLE' /><webctrl isleaf='1' tag='TD' parentname='pendingCleansingShipmentDetailForm' tableCol='1' tableRow='3' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<html app='msedge.exe' title='*ata *' /><webctrl parentname='pendingCleansingShipmentDetailForm' tag='TABLE' /><webctrl isleaf='1' tableCol='2' tableRow='3' tag='TD' />
+NewVersionReEngineering/Utils/NVPostSummitValidation.xaml,ui:Target,,<html app='msedge.exe' title='*ata *' /><webctrl parentname='pendingCleansingShipmentDetailForm' tag='TABLE' /><webctrl isleaf='1' tableCol='2' tableRow='3' tag='TD' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:BrowserScope,Attach Data Cleansing Record line item,<html app='{{in_UiApp}}' title='D*' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:BrowserScope,Attach Data Cleansing Record,<html app='{{in_UiApp}}' title='D*' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='2' title='OK' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:BrowserScope,Attach Browser DCC,<html app='{{in_UiApp}}' title='D*' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,"[""<webctrl tag='INPUT' aaname='""+in_submitAction+""' />""]"
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<html app='msedge.exe' title='D*' /><webctrl isleaf='1' aaname='*Supervisor*' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='65535' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<html app='msedge.exe' title='D*' /><webctrl isleaf='1' aaname='*Supervisor*' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='65535' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+NewVersionReEngineering/Utils/NVSubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+PreCall/Brazil/UpdateCurrenciesDaily.xaml,ui:Target,,<webctrl css-selector='body&gt;div' idx='2' tag='DIV' />
+PreCall/Brazil/UpdateCurrenciesDaily.xaml,ui:BrowserScope,Attach Browser 'Cota  esd Page',<html app='{{in_UiApp}}' title='Cotação de todas as moedas' />
+PreCall/Brazil/UpdateCurrenciesDaily.xaml,ui:Target,,<webctrl tag='TABLE' />
+Process.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><wnd cls='ToolbarWindow32' title='Main' /><ctrl name='Main' role='tool bar' /><ctrl name='Save/Save As...' role='push button' />
+Process.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl aaname='*Logout*' tag='A' />
+Process.xaml,ui:Target,,"<html app='msedge.exe' url='*dcc*' />
+<webctrl tag='B' aaname='Error occured while accessing the page*' />"
+Process.xaml,ui:BrowserScope,Attach Browser,<html app='msedge.exe' url='*dcc*' />
+Process.xaml,ui:BrowserScope,Attach Browser,<html app='msedge.exe' url='*dcc*' />
+Process.xaml,ui:Target,,<html app='msedge.exe' title='D*' /><webctrl tag='TD' aaname='No records available ' />
+Process.xaml,ui:BrowserScope,Attach Browser DCC,<html app='msedge.exe' title='D*' />
+Process.xaml,ui:Target,,<webctrl aaname='* ' tag='FONT' isleaf='1' parentid='Layer4' />
+Process.xaml,ui:Target,,<html app='msedge.exe' title='Data Compliance &amp; Classification' /><webctrl idx='1' parentid='generall' tag='A' />
+TaxID/Brazil/CloseOtherApps.xaml,ui:Target,,<wnd app='{{in_UiApp}}' cls='Chrome_WidgetWin_1' title='*InfoBusca *' />
+TaxID/Brazil/CloseOtherApps.xaml,ui:CloseWindow,Close Serasa,<html app='{{in_UiApp}}' title='*InfoBusca *' />
+TaxID/Brazil/CloseOtherApps.xaml,ui:Target,,<wnd app='{{in_UiApp}}' cls='Chrome_WidgetWin_1' title='*Serasa*' />
+TaxID/Brazil/CloseOtherApps.xaml,ui:CloseWindow,Close Serasa,<html app='{{in_UiApp}}' url='https://*.com.br*' />
+TaxID/Brazil/CloseOtherApps.xaml,ui:Target,,<wnd app='{{in_UiApp}}' cls='Chrome_WidgetWin_1' title='*Serasa*' />
+TaxID/Brazil/CloseOtherApps.xaml,ui:CloseWindow,Close Serasa,<html app='{{in_UiApp}}' url='https://*.com.br*' />
+TaxID/Brazil/LookUp3 Mc2/Mc2Search.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe',<html app='{{in_UiApp}}' url='http://www.mc2data.com.br/*' />
+TaxID/Brazil/LookUp3 Mc2/Mc2Search.xaml,ui:BrowserScope,Attach Browser 'iexplore.exe',<html app='{{in_UiApp}}' url='http://www.mc2data.com.br/*' />
+TaxID/Brazil/LookUp3 Mc2/Mc2Search.xaml,ui:Target,,<webctrl name='arnaldo_length' tag='SELECT' />
+TaxID/Brazil/LookUp3 Mc2/Mc2Search.xaml,ui:Target,,<webctrl id='arnaldo' tag='TABLE' />
+TaxID/Brazil/LookUp3 Mc2/Mc2Search.xaml,ui:BrowserScope,Attach Browser Mc2,<html app='{{in_UiApp}}' url='http://www.mc2data.com.br/*' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaFisica.xaml,ui:BrowserScope,Attach Browser Mc2,<html app='{{in_UiApp}}' url='http://www.mc2data.com.br/*' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaFisica.xaml,ui:Target,,<webctrl tag='INPUT' aaname='NOME' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaFisica.xaml,ui:Target,,<webctrl isleaf='1' parentid='form_pesquisa' tag='SPAN' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaFisica.xaml,ui:Target,,<webctrl tag='A' aaname='Consultar' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaFisica.xaml,ui:Target,,<webctrl tag='TD' aaname='1' rowName='1' tableCol='1' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaFisica.xaml,ui:Target,,<webctrl tag='LABEL' aaname='Buscar:' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaFisica.xaml,ui:CloseWindow,Close Window Mc2,<html app='{{in_UiApp}}' url='http://www.mc2*' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaJuridica.xaml,ui:BrowserScope,Attach Browser Mc2,<html app='{{in_UiApp}}' url='http://www.mc2data.com.br/*' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaJuridica.xaml,ui:Target,,<webctrl id='TxtRazaoSocial' tag='INPUT' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaJuridica.xaml,ui:Target,,<webctrl tag='A' aaname='Consultar' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaJuridica.xaml,ui:Target,,<webctrl tag='TD' aaname='1' rowName='1' tableCol='1' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaJuridica.xaml,ui:Target,,<webctrl tag='LABEL' aaname='Buscar:' />
+TaxID/Brazil/LookUp3 Mc2/SearchMc2PessoaJuridica.xaml,ui:CloseWindow,Close Window Mc2,<html app='{{in_UiApp}}' url='http://www.mc2*' />
+TaxID/Brazil/LookUp4 Serasa/CheckPhoneOrAddressSerasa.xaml,ui:Target,,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Resultado da Pesquisa] ::.' /><webctrl id='ctl00_ContentPlaceHolder1_grdTelefone' tag='TABLE' />
+TaxID/Brazil/LookUp4 Serasa/CheckPhoneOrAddressSerasa.xaml,ui:Target,,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Resultado da Pesquisa] ::.' /><webctrl id='ctl00_ContentPlaceHolder1_grdEndereco' tag='TABLE' />
+TaxID/Brazil/LookUp4 Serasa/CheckPhoneOrAddressSerasa.xaml,ui:Target,,<html title='.::InfoBusca 3.1 [Resultado da Pesquisa] ::.' /><webctrl id='ctl00_ContentPlaceHolder1_grdEndereco' tag='TABLE' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:BrowserScope,Attach Browser MC2,<html app='{{in_UiApp}}' url='http*.com.br*' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:Target,,<webctrl tag='INPUT' type='text' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:Target,,<webctrl tag='INPUT' type='text' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:Target,,<webctrl tag='INPUT' type='password' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:Target,,<webctrl tag='INPUT' type='password' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:Target,,<webctrl tag='BUTTON' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:Target,,<webctrl parentid='filterCategoriesClick_01' tag='BUTTON' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:Target,,<webctrl parentid='filterCategoriesClick_01' tag='BUTTON' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:Target,,<webctrl aaname='Acessar' tag='BUTTON' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname=' Procurar ' tag='BUTTON' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:BrowserScope,Attach Browser MC2,<html app='{{in_UiApp}}' url='http*.com.br*' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:Target,,<webctrl tag='INPUT' type='text' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:Target,,<webctrl tag='INPUT' type='text' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:Target,,<webctrl tag='INPUT' type='password' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:Target,,<webctrl tag='INPUT' type='password' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:Target,,<webctrl tag='BUTTON' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:Target,,<webctrl parentid='filterCategoriesClick_01' tag='BUTTON' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:Target,,<webctrl parentid='filterCategoriesClick_01' tag='BUTTON' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:Target,,<webctrl aaname='Acessar' tag='BUTTON' />
+TaxID/Brazil/LookUp4 Serasa/LoginSerasa_old.xaml,ui:Target,,<html app='{{in_UiApp}}' title='*InfoBusca*.' /><webctrl id='ctl00_ContentPlaceHolder1_btnProcurar' tag='INPUT' type='submit' />
+TaxID/Brazil/LookUp4 Serasa/SearchSerasa.xaml,ui:BrowserScope,Attach Browser Serasa,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Pesquisa] ::.' />
+TaxID/Brazil/LookUp4 Serasa/SearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_lblResult' tag='SPAN' />
+TaxID/Brazil/LookUp4 Serasa/SearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_grdFind' tag='TABLE' />
+TaxID/Brazil/LookUp4 Serasa/SearchSerasa.xaml,ui:Target,,"[""<webctrl aaname='""+item.ToString+""' tag='A' />""]"
+TaxID/Brazil/LookUp4 Serasa/SearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_grdFind' tag='TABLE' />
+TaxID/Brazil/LookUp4 Serasa/SearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_grdFind' tag='TABLE' />
+TaxID/Brazil/LookUp4 Serasa/SearchSerasa.xaml,ui:Target,,"[""<html app='"" +in_UiApp+ ""' title='.::InfoBusca 3.1 [Pesquisa] ::.' /><webctrl tag='TD' aaname='""+TaxId+""' /><nav up='1' /><webctrl tag='A' aaname='VISUALIZAR' />""]"
+TaxID/Brazil/LookUp4 Serasa/SearchSerasa.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' url='http*.com.br*' />
+TaxID/Brazil/Mc2Search/Login_Mc2.xaml,ui:BrowserScope,Attach Browser MC2,<html app='{{in_UiApp}}' url='http*.com.br*' />
+TaxID/Brazil/Mc2Search/Login_Mc2.xaml,ui:Target,,<webctrl tag='INPUT' aaname='Usuário' />
+TaxID/Brazil/Mc2Search/Login_Mc2.xaml,ui:Target,,<webctrl tag='INPUT' aaname='Senha' />
+TaxID/Brazil/Mc2Search/Login_Mc2.xaml,ui:Target,,<webctrl tag='INPUT' aaname='Login' />
+TaxID/Brazil/Mc2Search/Login_Mc2.xaml,ui:Target,,<webctrl tag='INPUT' aaname='RAZÃO SOCIAL' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:BrowserScope,Attach Browser Mc2,<html app='{{in_UiApp}}' url='http://www.mc2data.com.br/*' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:Target,,<webctrl tag='INPUT' aaname='CPF' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:Target,,<webctrl aaname='  Pesquisar Receita          ' /><webctrl isleaf='1' tag='SPAN' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:Target,,<webctrl tag='A' aaname='Consultar' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:Target,,<webctrl id='arnaldo' tag='TABLE' /><webctrl tableCol='1' tag='TD' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:Target,,<webctrl id='arnaldo' tag='TABLE' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:Target,,<webctrl tag='INPUT' aaname='CNPJ' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:Target,,<webctrl tag='A' aaname='Consultar' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:Target,,<webctrl id='arnaldo' tag='TABLE' /><webctrl tag='TD' aaname='1' />
+TaxID/Brazil/Mc2Search/Search_TaxID.xaml,ui:Target,,<webctrl id='arnaldo' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,"<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='Fizemos uma reformulação no produto, mudando sua estética mas sem alterar suas capacidades de enriquecimento. Para saber mais veja o tutorial:' />"
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname=' Não exibir novamente ' tag='SPAN' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='close' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:BrowserScope,Attach Browser Serasa,<html app='{{in_UiApp}}' title='Serasa Experian*' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='{{in_radioButton}}' tag='SPAN' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian*' /><webctrl id='{{in_firstFieldSelector}}' tag='INPUT' type='text' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='{{in_radioButton}}' tag='SPAN' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl id='{{in_firstFieldSelector}}' tag='INPUT' type='text' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<webctrl id='{{in_firstFieldSelector}}' tag='INPUT' type='text' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<webctrl id='address' tag='INPUT' type='text' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<webctrl aaname=' Favor informar um* ' tag='SPAN' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='TABLE' /><webctrl aaname=' Nome ' tag='TH' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:BrowserScope,Attach Browser Serasa,<html app='{{in_UiApp}}' title='Serasa Experian*' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='{{in_radioButton}}' tag='SPAN' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian*' /><webctrl id='{{in_firstFieldSelector}}' tag='INPUT' type='text' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='{{in_radioButton}}' tag='SPAN' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl id='{{in_firstFieldSelector}}' tag='INPUT' type='text' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl id='{{in_secondFieldSelector}}' tag='INPUT' type='text' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<webctrl aaname=' Favor informar um* ' tag='SPAN' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian*' /><webctrl aaname=' Procurar ' tag='BUTTON' innertext=' Procurar ' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='TABLE' /><webctrl aaname=' Nome ' tag='TH' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:BrowserScope,Attach Browser 'SerasaExp Page',<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' />
+TaxID/Brazil/Serasa/SerasaSearch.xaml,ui:Target,,<webctrl tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:BrowserScope,Attach Browser Serasa,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Pesquisa] ::.' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_txt{{in_firstFieldSelector}}' tag='INPUT' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_btnProcurar' type='submit' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_btnProcurar' tag='INPUT' type='submit' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Pesquisa] ::.' /><webctrl id='ctl00_ContentPlaceHolder1_grdFind' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:BrowserScope,Attach Browser Serasa,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Pesquisa] ::.' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_txt{{in_firstFieldSelector}}' tag='INPUT' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_txt{{in_secondFieldSelector}}' tag='INPUT' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_btnProcurar' type='submit' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_btnProcurar' tag='INPUT' type='submit' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Pesquisa] ::.' /><webctrl id='ctl00_ContentPlaceHolder1_grdFind' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:BrowserScope,Attach Browser 'InfoBusca Page',<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Pesquisa] ::.' />
+TaxID/Brazil/Serasa/SerasaSearch_old.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_grdFind' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='search Visualizar ' tableRow='{{rowNumber}}' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='TABLE' idx='1' /><webctrl tableCol='1' tag='TD' aaname='Documento' rowName='Documento' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='TABLE' idx='1' /><webctrl tableCol='1' tag='TD' aaname='Documento' /><nav up='1' /><webctrl tableCol='2' tag='TD' rowName='Documento' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname=' Endereço Tipo' tag='TABLE' /><webctrl aaname='Endereço' tag='TH' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:BrowserScope,Extract Addresses info,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,<webctrl aaname=' Endereço Tipo' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,<wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='.::InfoBusca 3.1*' /><wnd cls='Intermediate D3D Window' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,"<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='ARTICLE' innertext='closeinfo Documento com restrição para consulta, não podemos seguir com a exibição dos dados. Fechar' />"
+TaxID/Brazil/Serasa/SerasaSearchbyName.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='Fechar' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:Target,,<html app='{{in_UiApp}}' title='*Serasa Experian*' /><webctrl aaname='search Visualizar ' tag='BUTTON' tableRow='{{rowNumber}}' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:Target,,<html app='msedge.exe' title='*Serasa*' /><webctrl idx='1' tag='TABLE' /><webctrl tableCol='1' tag='TD' innertext='Documento' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='TABLE' idx='1' /><webctrl tableCol='1' tag='TD' aaname='Documento' /><nav up='1' /><webctrl tableCol='2' tag='TD' rowName='Documento' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:Target,,<html app='{{in_UiApp}}' title='*Serasa*' /><webctrl aaname=' Endereço Tipo' tag='TABLE' /><webctrl aaname='Endereço' tag='TH' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:BrowserScope,Extract Addresses info,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:Target,,<webctrl aaname=' Endereço Tipo' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:Target,,"<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='ARTICLE' innertext='closeinfo Documento com restrição para consulta, não podemos seguir com a exibição dos dados. Fechar' />"
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='Fechar' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:Target,,<html app='{{in_UiApp}}' title='*Serasa Experian*' /><webctrl aaname='search Visualizar ' tag='BUTTON' tableRow='{{rowNumber}}' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:Target,,<html app='msedge.exe' title='*Serasa*' /><webctrl idx='1' tag='TABLE' /><webctrl tableCol='1' tag='TD' innertext='Documento' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='TABLE' idx='1' /><webctrl tableCol='1' tag='TD' aaname='Documento' /><nav up='1' /><webctrl tableCol='2' tag='TD' rowName='Documento' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:Target,,<html app='{{in_UiApp}}' title='*Serasa*' /><webctrl aaname=' Endereço Tipo' tag='TABLE' /><webctrl aaname='Endereço' tag='TH' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:BrowserScope,Extract Addresses info,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:Target,,<webctrl aaname=' Endereço Tipo' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:Target,,"<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='ARTICLE' innertext='closeinfo Documento com restrição para consulta, não podemos seguir com a exibição dos dados. Fechar' />"
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode2.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='Fechar' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:Target,,<html app='{{in_UiApp}}' title='*Serasa Experian*' /><webctrl aaname='search Visualizar ' tag='BUTTON' tableRow='{{rowNumber}}' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:Target,,<html app='msedge.exe' title='*Serasa*' /><webctrl idx='1' tag='TABLE' /><webctrl tableCol='1' tag='TD' innertext='Documento' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='TABLE' idx='1' /><webctrl tableCol='1' tag='TD' aaname='Documento' /><nav up='1' /><webctrl tableCol='2' tag='TD' rowName='Documento' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:Target,,<html app='{{in_UiApp}}' title='*Serasa*' /><webctrl aaname=' Endereço Tipo' tag='TABLE' /><webctrl aaname='Endereço' tag='TH' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:BrowserScope,Extract Addresses info,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:Target,,<webctrl aaname=' Endereço Tipo' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:Target,,"<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='ARTICLE' innertext='closeinfo Documento com restrição para consulta, não podemos seguir com a exibição dos dados. Fechar' />"
+TaxID/Brazil/Serasa/SerasaSearchbyNameZipCode3.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='Fechar' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyName_old.xaml,ui:Target,,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Pesquisa] ::.' /><webctrl id='ctl00_ContentPlaceHolder1_grdFind_ctl0{{rowNumber}}_lnkAbrir' tag='A' tableCol='1' tableRow='{{rowNumber}}' />
+TaxID/Brazil/Serasa/SerasaSearchbyName_old.xaml,ui:Target,,<html app='msedge.exe' title='.::InfoBusca 3.1 [Resultado da Pesquisa] ::.' /><webctrl id='ctl00_ContentPlaceHolder1_grdResultado' tag='TABLE' /><webctrl tag='TD' />
+TaxID/Brazil/Serasa/SerasaSearchbyName_old.xaml,ui:Target,,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Resultado da Pesquisa] ::.' /><webctrl id='ctl00_ContentPlaceHolder1_grdResultado' tag='TABLE' /><webctrl idx='1' tableCol='2' tag='TD' />
+TaxID/Brazil/Serasa/SerasaSearchbyName_old.xaml,ui:Target,,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Resultado da Pesquisa] ::.' /><webctrl id='ctl00_ContentPlaceHolder1_grdEndereco' tag='TABLE' /><webctrl aaname='Endereço' tag='TH' />
+TaxID/Brazil/Serasa/SerasaSearchbyName_old.xaml,ui:BrowserScope,Extract Addresses info,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Resultado da Pesquisa] ::.' />
+TaxID/Brazil/Serasa/SerasaSearchbyName_old.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_grdEndereco' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearchbyName_old.xaml,ui:Target,,<wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='.::InfoBusca 3.1*' /><wnd cls='Intermediate D3D Window' />
+TaxID/Brazil/Serasa/SerasaSearchbyTaxID2.xaml,ui:Target,,<html app='{{in_uiApp}}' title='*Serasa Experian*' /><webctrl aaname='search Visualizar ' tag='BUTTON' tableRow='{{rowNumber}}' />
+TaxID/Brazil/Serasa/SerasaSearchbyTaxID2.xaml,ui:Target,,<html app='{{in_uiApp}}' title='*Serasa*' /><webctrl aaname=' Endereço Tipo' tag='TABLE' /><webctrl aaname='Endereço' tag='TH' />
+TaxID/Brazil/Serasa/SerasaSearchbyTaxID2.xaml,ui:BrowserScope,Extract Addresses info,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' />
+TaxID/Brazil/Serasa/SerasaSearchbyTaxID2.xaml,ui:Target,,<webctrl aaname=' Endereço Tipo' tag='TABLE' />
+TaxID/Brazil/Serasa/SerasaSearchbyTaxID2.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyTaxID2.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='arrow_back Voltar ' tag='BUTTON' />
+TaxID/Brazil/Serasa/SerasaSearchbyTaxID2.xaml,ui:Target,,"<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl tag='ARTICLE' innertext='closeinfo Documento com restrição para consulta, não podemos seguir com a exibição dos dados. Fechar' />"
+TaxID/Brazil/Serasa/SerasaSearchbyTaxID2.xaml,ui:Target,,<html app='msedge.exe' title='Serasa Experian - InfoMais | Unitário' /><webctrl aaname='Fechar' tag='BUTTON' />
+TaxID/Brazil/SerasaValidation/SearchTaxIDSerasa.xaml,ui:BrowserScope,Attach Browser Serasa,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Pesquisa] ::.' />
+TaxID/Brazil/SerasaValidation/SearchTaxIDSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_txtCPF' tag='INPUT' />
+TaxID/Brazil/SerasaValidation/SearchTaxIDSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_btnProcurar' type='submit' />
+TaxID/Brazil/SerasaValidation/SearchTaxIDSerasa.xaml,ui:Target,,<webctrl tag='SPAN' aaname='A pesquisa retornou *' />
+TaxID/Brazil/SerasaValidation/SearchTaxIDSerasa.xaml,ui:BrowserScope,Attach Browser Serasa,<html app='{{in_UiApp}}' title='.::InfoBusca 3.1 [Pesquisa] ::.' />
+TaxID/Brazil/SerasaValidation/SearchTaxIDSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_lblResult' tag='SPAN' />
+TaxID/Brazil/SerasaValidation/SearchTaxIDSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_grdFind' tag='TABLE' />
+TaxID/Brazil/SerasaValidation/SearchTaxIDSerasa.xaml,ui:Target,,"[""<webctrl aaname='""+item.ToString+""' tag='A' />""]"
+TaxID/Brazil/SerasaValidation/SearchTaxIDSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_grdFind' tag='TABLE' />
+TaxID/Chile/DCCSearch/CloseDCCSearchLastSearch.xaml,ui:Target,,<wnd app='{{in_uiApp}}' cls='Chrome_WidgetWin_1' title='Customer*' />
+TaxID/Chile/DCCSearch/CloseDCCSearchLastSearch.xaml,ui:BrowserScope,Close DCC Search,<html app='{{in_uiApp}}' title='Customer*' />
+TaxID/Chile/DCCSearch/CloseDCCSearchLastSearch.xaml,ui:BrowserScope,Return to shipment Information,<html app='{{in_uiApp}}' title='D*' />
+TaxID/Chile/DCCSearch/CloseDCCSearchLastSearch.xaml,ui:Target,,<webctrl aaname='Shipment Information*' tag='A' />
+TaxID/Chile/EQUIFAXLookUp.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Equifax Chile' /><webctrl tag='A' aaname='USUARIO O CONTRASEÑA INVALIDA' />
+TaxID/Chile/Equifax/Address LookUp/SearchByAddress.xaml,ui:BrowserScope,Attach Equifax,<html title='Sitio Web Dicom Equifax' />
+TaxID/Chile/Equifax/Address LookUp/SearchByAddress.xaml,ui:Target,,<webctrl tag='SELECT' name='codCiudad' />
+TaxID/Chile/Equifax/Address LookUp/SearchByAddress.xaml,ui:Target,,<webctrl tag='SELECT' name='codComuna' />
+TaxID/Chile/Equifax/Address LookUp/SearchByAddress.xaml,ui:Target,,<webctrl tag='INPUT' name='nombreCalle' />
+TaxID/Chile/Equifax/Address LookUp/SearchByAddress.xaml,ui:Target,,<webctrl tag='INPUT' name='alturaInicial' />
+TaxID/Chile/Equifax/Address LookUp/SearchByAddress.xaml,ui:Target,,<webctrl tag='IMG' src='https://www.dicom.cl/dcmn/img/i.cmn.000.consultar.gif' parentname='direcciones' />
+TaxID/Chile/Equifax/CloseEquifax.xaml,ui:BrowserScope,Attach Equifax,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' />
+TaxID/Chile/Equifax/CloseEquifax.xaml,ui:Target,,<webctrl aaname='finalizar sesión' tag='A' />
+TaxID/Chile/Equifax/CloseEquifax.xaml,ui:Target,,<webctrl aaname='finalizar sesión' tag='A' />
+TaxID/Chile/Equifax/CloseEquifax.xaml,ui:WindowScope,Attach Window,<wnd app='{{in_UiApp}}' cls='#32770' title='Message from webpage' />
+TaxID/Chile/Equifax/CloseEquifax.xaml,ui:Target,,<wnd aaname='OK' cls='Button' />
+TaxID/Chile/Equifax/CloseEquifax.xaml,ui:BrowserScope,Attach Equifax Log in,<html app='{{in_UiApp}}' title='Equifax Chile' />
+TaxID/Chile/Equifax/GetEquifaxInfo.xaml,ui:BrowserScope,Attach Equifax Browser,<html title='Sitio Web Dicom Equifax' />
+TaxID/Chile/Equifax/GetEquifaxInfo.xaml,ui:Target,,<webctrl tag='SPAN' class='azul' rowName='Rut :*' />
+TaxID/Chile/Equifax/GetEquifaxInfo.xaml,ui:Target,,<webctrl css-selector='body&gt;div&gt;table' idx='5' tag='TABLE' />
+TaxID/Chile/Equifax/GetEquifaxInfo.xaml,ui:Target,,<webctrl css-selector='body&gt;div&gt;table' idx='8' tag='TABLE' />
+TaxID/Chile/Equifax/GetEquifaxInfo.xaml,ui:Target,,<webctrl href='https://www.dicom.cl/ddi/ful.00/img/i.ddi.ful.menu.gif' tag='IMG' />
+TaxID/Chile/Equifax/LogInEquifax.xaml,ui:BrowserScope,Attach Equifax,<html app='{{in_UiApp}}' title='Equifax Chile' />
+TaxID/Chile/Equifax/LogInEquifax.xaml,ui:Target,,<webctrl tag='INPUT' aaname='Usuario' />
+TaxID/Chile/Equifax/LogInEquifax.xaml,ui:Target,,<webctrl tag='INPUT' aaname='Clave' />
+TaxID/Chile/Equifax/LogInEquifax.xaml,ui:Target,,<webctrl tag='BUTTON' aaname='Ingresar' />
+TaxID/Chile/Equifax/Name LookUp/SearchByName.xaml,ui:BrowserScope,Attach Equifax,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' />
+TaxID/Chile/Equifax/Name LookUp/SearchByName.xaml,ui:Target,,<webctrl tag='TD' aaname='Persona' /><nav up='1' /><webctrl name='PorRut' tag='INPUT' />
+TaxID/Chile/Equifax/Name LookUp/SearchByName.xaml,ui:Target,,<webctrl tag='IMG' href='https://www.dicom.cl/ddi/ful.00/img/i.ddi.ful.Rutificador20.png' />
+TaxID/Chile/Equifax/Name LookUp/SearchByName.xaml,ui:Target,,<webctrl tag='INPUT' rowName='Apellido Paterno' />
+TaxID/Chile/Equifax/Name LookUp/SearchByName.xaml,ui:Target,,<webctrl tag='INPUT' rowName='Apellido Materno' />
+TaxID/Chile/Equifax/Name LookUp/SearchByName.xaml,ui:Target,,<webctrl tag='INPUT' rowName='Nombres' />
+TaxID/Chile/Equifax/Name LookUp/SearchByName.xaml,ui:Target,,<webctrl tag='IMG' href='https://www.dicom.cl/com.rut01.RutificadorWeb/img/i.com.rut.bot-consultar.jpg' />
+TaxID/Chile/Equifax/NavToGuias.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' /><webctrl tag='SPAN' aaname='Bienvenido(a)*' />
+TaxID/Chile/Equifax/NavToGuias.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' /><webctrl aaname='EQUIFAX Guías' tag='A' />
+TaxID/Chile/Equifax/NavToGuias.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' /><webctrl tag='TD' aaname='Ingrese los datos de la dirección y presione botón consultar' />
+TaxID/Chile/Equifax/Phone LookUp/ExtractClientInfo.xaml,ui:BrowserScope,Attach Equifax Browser,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' />
+TaxID/Chile/Equifax/Phone LookUp/ExtractClientInfo.xaml,ui:Target,,"[""<webctrl tag='TR' aaname='*""+in_equifaxName+""*' /><webctrl tag='IMG' alt='Abrir detalle' />""]"
+TaxID/Chile/Equifax/Phone LookUp/ExtractClientInfo.xaml,ui:Target,,<webctrl tag='TABLE' innertext='*Direcciones Relacionadas al Rut*' />
+TaxID/Chile/Equifax/Phone LookUp/ExtractClientInfo.xaml,ui:Target,,"[""<webctrl tag='TD' aaname='*""+in_equifaxName+""*' />""]"
+TaxID/Chile/Equifax/Phone LookUp/ExtractClientInfo.xaml,ui:Target,,"[""<webctrl tag='TABLE' innertext='*""+in_EquifaxName+""*' /><webctrl tableCol='2' tag='TD' />""]"
+TaxID/Chile/Equifax/Phone LookUp/GetAddressByPhoneSearch.xaml,ui:BrowserScope,Attach Equifax,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' />
+TaxID/Chile/Equifax/Phone LookUp/GetAddressByPhoneSearch.xaml,ui:Target,,"[""<webctrl tag='TR' aaname='*""+in_equifaxName+""*' /><webctrl tag='IMG' aaname='Abrir detalle' />""]"
+TaxID/Chile/Equifax/Phone LookUp/GetAddressByPhoneSearch.xaml,ui:Target,,<webctrl id='SubProd41' tag='TABLE' /><webctrl isleaf='1' tableCol='2' tableRow='6' tag='TD' />
+TaxID/Chile/Equifax/Phone LookUp/GetAddressByPhoneSearch.xaml,ui:Target,,<webctrl parentid='SubProd41' tag='TBODY' />
+TaxID/Chile/Equifax/Phone LookUp/GetAddressByPhoneSearch.xaml,ui:Target,,"[""<webctrl tag='TR' aaname='*""+in_equifaxName+""*' /><webctrl tag='IMG' aaname='Cerrar detalle' />""]"
+TaxID/Chile/Equifax/Phone LookUp/GetEquifaxInfoByPhone.xaml,ui:BrowserScope,Get customer data,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' />
+TaxID/Chile/Equifax/Phone LookUp/GetEquifaxInfoByPhone.xaml,ui:Target,,<webctrl tag='DIV' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<webctrl tag='INPUT' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,"[""<html title='Sitio Web Dicom Equifax' /><webctrl tag='TD' aaname='""+type+""' />""]"
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html title='Sitio Web Dicom Equifax' /><webctrl name='CodArea' tag='SELECT' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html title='Sitio Web Dicom Equifax' /><webctrl id='Fono' tag='INPUT' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html title='Sitio Web Dicom Equifax' /><webctrl parentid='Telefono' tag='IMG' href='https://www.dicom.cl/dcmn/img/i.cmn.000.consultar.gif' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' /><webctrl tag='TABLE' innertext='*Personas o Empresas Relacionadas al Teléfono*' /><webctrl tag='TD' rowName='Personas o Empresas Relacionadas al Teléfono*' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<wnd app='iexplore.exe' title='Message from webpage' /><ctrl role='dialog' text='Message from webpage' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<wnd app='iexplore.exe' /><wnd aaname='OK' cls='Button' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html title='Sitio Web Dicom Equifax' /><webctrl tag='IMG' src='https://www.dicom.cl/ddi/ful.00/img/i.ddi.ful.menu.gif' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' /><webctrl parentid='Telefono' tag='IMG' src='https://www.dicom.cl/dcmn/img/i.cmn.000.consultar.gif' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html title='Sitio Web Dicom Equifax' /><webctrl tag='IMG' aaname='Telefonos' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' /><webctrl tag='TD' aaname='Seleccione el criterio de Búsqueda:' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html title='Sitio Web Dicom Equifax' /><webctrl tag='IMG' src='https://www.dicom.cl/ddi/ful.00/img/i.ddi.ful.menu.gif' />
+TaxID/Chile/Equifax/Phone LookUp/SearchByPhone.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Sitio Web Dicom Equifax' /><webctrl parentid='Telefono' tag='IMG' src='https://www.dicom.cl/dcmn/img/i.cmn.000.consultar.gif' />
+TaxID/Chile/Equifax/Rut LookUp/SearchByTaxID.xaml,ui:BrowserScope,Attach Equifax Browser,<html title='Sitio Web Dicom Equifax' />
+TaxID/Chile/Equifax/Rut LookUp/SearchByTaxID.xaml,ui:Target,,<webctrl tag='INPUT' name='PorRut' type='radio' />
+TaxID/Chile/Equifax/Rut LookUp/SearchByTaxID.xaml,ui:Target,,<webctrl tag='INPUT' name='nrut' />
+TaxID/Chile/Equifax/Rut LookUp/SearchByTaxID.xaml,ui:Target,,<webctrl tag='INPUT' name='drut' />
+TaxID/Chile/Equifax/Rut LookUp/SearchByTaxID.xaml,ui:Target,,<webctrl tag='IMG' colName='Rut' parentid='boton_consultar' />
+TaxID/Chile/RecieverSearchLookUp.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Customer' />
+TaxID/Chile/RecieverSearchLookUp.xaml,ui:BrowserScope,Close DCC Search,<html app='{{in_UiApp}}' title='Customer' />
+TaxID/Chile/RecieverSearchLookUp.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+TaxID/Chile/RecieverSearchLookUp.xaml,ui:Target,,<webctrl aaname='Shipment Information*' tag='A' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><ctrl name='Tab Row' role='page tab list' /><ctrl name='New tab (Ctrl+T)' role='push button' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><wnd cls='Client Caption' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><wnd cls='Address Band Root' title='Address Bar' /><wnd aaname='*' cls='Edit' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><wnd cls='Address Band Root' title='Address Bar' /><wnd aaname='*' cls='Edit' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><wnd cls='DirectUIHWND' idx='2' /><ctrl name='*e*' role='page tab' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Internet Explorer' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><wnd aaname='Notification' cls='DirectUIHWND' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><wnd aaname='Notification' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='Save' role='split button' /><ctrl name='6' role='drop down button' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><wnd aaname='Notification' cls='DirectUIHWND' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Save As' /><wnd aaname='Explorer Pane' cls='DirectUIHWND' /><wnd aaname='File name:' cls='ComboBox' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Save As' /><wnd ctrlid='1' title='&amp;Save' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><wnd cls='DirectUIHWND' idx='2' /><ctrl name='*e*' role='page tab' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer*' /><wnd cls='DirectUIHWND' idx='2' /><ctrl name='Tab Row' role='page tab list' /><ctrl name='*e*' role='page tab' />
+TaxID/DominicanRepublic/DownloadTaxIDFile/DownloadFileProcess.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='*Internet Explorer*' /><wnd title='Close all &amp;tabs' />
+TaxID/Peru/Equifax/EquifaxLookUpRUC.xaml,ui:Target,,<webctrl tag='H1' aaname='Código de seguridad' />
+TaxID/Peru/Equifax/EquifaxLookUpRUC.xaml,ui:Target,,<webctrl tag='INPUT' aaname='Documento' />
+TaxID/Peru/Equifax/EquifaxLookUpRUC.xaml,ui:Target,,<html app='{{in_uiApp}}' title='Reporte Infocorp Empresarial Plus' /><webctrl aaname='Score' parentid='score' tag='DIV' />
+TaxID/Peru/Equifax/EquifaxLookUpRUC.xaml,ui:BrowserScope,Attach Browser 'Reporte Infocorp',<html app='msedge.exe' title='Reporte Infocorp Empresarial Plus' />
+TaxID/Peru/Equifax/EquifaxLookUpRUC.xaml,ui:Target,,<webctrl aaname='*' parentid='main-banner' tag='SPAN' />
+TaxID/Peru/LineItemsCategorization.xaml,ui:BrowserScope,Attach Browser DCC - Line Items Categorization,<html app='{{in_uiApp}}' title='D*' />
+TaxID/Peru/LineItemsCategorization.xaml,ui:BrowserScope,"DCC Line Items Categorization - Type into Description, Trademark, Model",<html app='{{in_uiApp}}' title='D*' />
+TaxID/Peru/LineItemsCategorization.xaml,ui:BrowserScope,Attach Browser DCC -  Line Items Categorization Type Into Tariff Code,<html app='{{in_uiApp}}' title='D*' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<webctrl tag='STRONG' aaname=' El Sistema RUC NO REGISTRA un número de RUC* ' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,"<wnd app='{{in_UiApp}}' cls='Chrome_WidgetWin_1' title='SUNAT*' /><ctrl name='e-consultaruc.sunat.gob.pe says' role='dialog' /><ctrl name='Por favor, ingrese número de RUC válido.' role='text' />"
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' /><webctrl tag='STRONG' innertext=' El número de RUC * consultado no es válido*' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<webctrl tag='DIV' innertext='  La aplicación ha retornado el siguiente mensaje : * ' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:BrowserScope,Attach Browser 'SUNAT',<html app='{{in_uiApp}}' title='*SUNAT*' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<html app='{{in_uiApp}}' title='*Error*' /><webctrl tag='DIV' innertext='  La aplicación ha retornado el siguiente problema *' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:BrowserScope,Attach Browser 'SUNAT',<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<webctrl tag='H4' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<webctrl css-selector='body&gt;div&gt;div&gt;div&gt;div&gt;div&gt;div&gt;div&gt;div' tag='DIV' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<webctrl tag='P' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<webctrl tag='H4' aaname='Estado del Contribuyente:' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<webctrl tag='P' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<webctrl tag='H4' aaname='Condición del Contribuyente:' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:BrowserScope,Attach Browser 'SUNAT',<html app='{{in_uiApp}}' title='*SUNAT*' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<ctrl name='e-consultaruc.sunat.gob.pe says' role='dialog' /><ctrl name='El número de documento de identidad debe tener 8 dígitos.' role='text' />
+TaxID/Peru/Sunat/SunatLookUpRUC.xaml,ui:Target,,<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' /><webctrl tag='STRONG' innertext=' El número de RUC * consultado no es válido*' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' /><webctrl tag='STRONG' aaname=' *RUC NO REGISTRA*' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<wnd app='{{in_uiApp}}' cls='Chrome_WidgetWin_1' title='SUNAT - Consulta*' /><ctrl name='La Razón social no es válida.' role='text' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,"<html app='{{in_uiApp}}' title='.:: Pagina de Error ::.' /><webctrl tag='BODY' innertext='    La aplicación ha retornado el siguiente problema : Surgieron problemas al procesar la consulta por razon social.  Acción a realizar : Por favor intente nuevamente ejecutar la opcion, en caso de continuar con el problema, comuniquese con nuestro webmaster.    Información adicional :      retornar();    ' />"
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:BrowserScope,Attach Browser 'SUNAT',<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:BrowserScope,Attach Browser - Get and open results in Sunat,<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,"<webctrl tag='DIV' class='list-group' />
+"
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' /><webctrl aaname='*' tag='A' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:BrowserScope,Attach Browser 'SUNAT',<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<webctrl tag='H4' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<webctrl css-selector='body&gt;div&gt;div&gt;div&gt;div&gt;div&gt;div&gt;div&gt;div' tag='DIV' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<webctrl tag='P' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<webctrl tag='H4' aaname='Estado del Contribuyente:' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<webctrl tag='P' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<webctrl tag='H4' aaname='Condición del Contribuyente:' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<webctrl tag='P' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:Target,,<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' /><webctrl tag='H4' innertext='Domicilio Fiscal:' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:BrowserScope,Close Sunat Tab,<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' />
+TaxID/Peru/Sunat/SunatLookUpRazonSocial.xaml,ui:BrowserScope,Close Sunat Tab,<html app='{{in_uiApp}}' title='SUNAT - Consulta RUC' />
+Test_Framework/RunAllTests.xaml,ui:OpenApplication,Open application 'notepad.exe TestLog.txt',<wnd app='notepad.exe' cls='Notepad' title='TestLog.txt - Notepad' />
+Utils/ClosePopUps.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' title='Message from webpage' /><wnd ctrlid='65535' />
+Utils/ClosePopUps.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' />
+Utils/ClosePopUps.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' />
+Utils/ClosePopUps.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' />
+Utils/ConvertFileToPDF.xaml,ui:OpenApplication,Open application 'FineReaderOCR',<wnd app='finereaderocr.exe' cls='FineReader*MainWindowClass' title='*FineReader *OCR Editor' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='#32770' title='ABBYY FineReader*OCR Editor' /><wnd title='&amp;No' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd cls='AwlUnicodeComboBoxEdit' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='FineReader*MainWindowClass' title='*ABBYY FineReader*OCR Editor' />
+Utils/ConvertFileToPDF.xaml,ui:WindowScope,Open PDF File,<wnd app='finereaderocr.exe' cls='#32770' title='Open Image' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd ctrlid='1148' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd ctrlid='1148' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,"[""<wnd app='finereaderocr.exe' cls='#32770' title='Open Image' /> <wnd aaname='Explorer Pane' cls='DirectUIHWND' /> <wnd aaname='Items View' cls='DirectUIHWND' /> <ctrl name='Items View' role='list' /> <ctrl name='Name' text='"" + Path.GetFileNameWithoutExtension(filename) + ""*' />""]"
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd aaname='Explorer Pane' cls='DirectUIHWND' /><wnd cls='Edit' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd aaname='Explorer Pane' cls='DirectUIHWND' /><wnd aaname='Select pages*' cls='Button' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd aaname='Explorer Pane' cls='DirectUIHWND' /><wnd cls='Edit' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd ctrlid='1148' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd ctrlid='1' title='&amp;Open' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' title='Adding the image to the OCR project' /><wnd title='Process failed' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' title='Adding the image to the OCR project' /><wnd title='&amp;Close' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='FineReader*MainWindowClass' omit:title='Untitled project [9] - ABBYY FineReader*OCR Editor' /><wnd cls='msctls_progress32' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' title='Adding the image to the OCR project' /><wnd title='&amp;Close' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='FineReader*MainWindowClass' /><wnd cls='msctls_progress32' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='FineReader*MainWindowClass' /><wnd title='TEXT' /><wnd cls='msctls_progress32' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='FineReader*MainWindowClass' omit:title='* ABBYY FineReader*OCR Editor' /><wnd cls='AWL*' idx='1' /><ctrl name='Application' role='menu bar' idx='6' /><ctrl name='File' role='menu item' />
+Utils/ConvertFileToPDF.xaml,ui:WindowScope,Attach Save As Menu Option,<wnd app='finereaderocr.exe' cls='AWL*' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<ctrl name='File' role='popup menu' /><ctrl name='Save As' role='menu item' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='AWL*' idx='1' /><ctrl name='Save As' role='popup menu' /><ctrl name='Searchable PDF Document' role='menu item' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='FineReader*MainWindowClass' omit:title='* ABBYY FineReader*OCR Editor' />
+Utils/ConvertFileToPDF.xaml,ui:WindowScope,Attach Window 'SaveAs Dialog',<wnd app='finereaderocr.exe' cls='#32770' title='Save document as' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd aaname='Save as type:' cls='ComboBox' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd aaname='Save as type:' cls='ComboBox' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd aaname='Save as type:' cls='ComboBox' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd aaname='Explorer Pane' cls='DirectUIHWND' /><wnd aaname='Save as type:' cls='ComboBox' />
+Utils/ConvertFileToPDF.xaml,ui:WindowScope,Type target file name,<wnd app='finereaderocr.exe' cls='#32770' title='Save document as' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd aaname='File name:' cls='ComboBox' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd aaname='Open document after saving' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd ctrlid='1' title='&amp;Save' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='#32770' title='Saving to file' /><wnd ctrlid='3026' title='Saving the document...' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,"<wnd app='finereaderocr.exe' cls='#32770' title='Saving to file' />
+<wnd ctrlid='3026' title='Saving the document...' />"
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='#32770' title='ABBYY FineReader*OCR Editor' /><wnd title='*No' />
+Utils/ConvertFileToPDF.xaml,ui:Target,,<wnd app='finereaderocr.exe' cls='FineReader*MainWindowClass' title='*ABBYY FineReader*OCR Editor' />
+Utils/ConvertPDFtoXPS.xaml,ui:OpenApplication,Open 'Adobe Reader' and Print Dialog,<wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='*Adobe*' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd cls='AVL_AVView' title='AVPageView' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='#32770' title='Print' /><wnd aaname='Printer:' cls='ComboBoxEx32' /><wnd aaname='Printer:' cls='ComboBox' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='#32770' title='Print' /><wnd aaname='Printer:' cls='ComboBoxEx32' /><wnd aaname='Printer:' cls='ComboBox' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='#32770' title='Print' /><wnd aaname='Printer:' cls='ComboBoxEx32' /><wnd aaname='Printer:' cls='ComboBox' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='#32770' title='Print' /><wnd cls='Button' title='Print' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='#32770' title='Save Print Output As' /><wnd aaname='Explorer Pane' cls='DirectUIHWND' /><wnd aaname='Save as type:' cls='ComboBox' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='#32770' title='Save Print Output As' /><wnd aaname='Explorer Pane' cls='DirectUIHWND' /><wnd aaname='Save as type:' cls='ComboBox' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='#32770' title='Save Print Output As' /><wnd aaname='Explorer Pane' cls='DirectUIHWND' /><wnd aaname='Save as type:' cls='ComboBox' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='ComboLBox' idx='1' /><ctrl name='Save as type:' role='list' /><ctrl name='XPS Document (*.xps)' role='list item' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='#32770' title='Save Print Output As' /><wnd aaname='Explorer Pane' cls='DirectUIHWND' /><wnd aaname='File name:' cls='ComboBox' /><wnd ctrlid='1001' aaname='File name:' />
+Utils/ConvertPDFtoXPS.xaml,ui:Target,,<wnd app='acrord32.exe' cls='#32770' title='Save Print Output As' /><wnd aaname='Save' />
+Utils/CurrencyConvertionToUSD.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+Utils/CurrencyConvertionToUSD.xaml,ui:Target,,"[""<html title='Data Compliance &amp; Classification' />""+
+""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.strValue' tag='INPUT' />""]"
+Utils/CurrencyConvertionToUSD.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+Utils/CurrencyConvertionToUSD.xaml,ui:Target,,"[""<html title='Data Compliance &amp; Classification' />""+
+""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.currencyCode' tag='INPUT' />""]"
+Utils/DownloadImageDCC.xaml,ui:Target,,<html app='{{UiApp}}' title='D*' /><wnd cls='ToolbarWindow32' title='Main' /><ctrl name='Main' role='tool bar' /><ctrl name='Save/Save As...' role='push button' />
+Utils/DownloadImageDCC.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='SELECT' colName=' HAWB Image CRL Image ' />
+Utils/DownloadImageDCC.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='SELECT' rowName=' HAWB Image ' />
+Utils/DownloadImageDCC.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='SELECT' colName=' Invoice Image HAWB Image ' />
+Utils/DownloadImageDCC.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='SELECT' rowName=' Invoice Image ' />
+Utils/DownloadImagesClick.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Utils/DownloadImagesClick.xaml,ui:Target,,<webctrl name='imageSelect' tag='SELECT' />
+Utils/DownloadImagesClick.xaml,ui:Target,,<wnd cls='ToolbarWindow32' title='Main' /><ctrl name='Main' role='tool bar' /><ctrl name='Save/Save As...' role='push button' />
+Utils/DownloadImagesClick.xaml,ui:WindowScope,Attach Window 'SavePages Dialog',<wnd app='{{in_UiApp}}' cls='#32770' title='Save Pages' />
+Utils/DownloadImagesClick.xaml,ui:Target,,<wnd aaname='File name:' idx='4' />
+Utils/DownloadImagesClick.xaml,ui:Target,,<wnd ctrlid='1136' /><ctrl name='Save as type:' role='combo box' /><ctrl automationid='DropDown' />
+Utils/DownloadImagesClick.xaml,ui:Target,,"<wnd app='iexplore.exe' cls='ComboLBox' idx='*' />
+<ctrl name='Save as type:' role='list' />
+<ctrl name='PDF document (*.pdf)' role='list item' />
+"
+Utils/DownloadImagesClick.xaml,ui:Target,,"<wnd app='iexplore.exe' cls='ComboLBox' idx='*' />
+<ctrl name='Save as type:' role='list' />
+<ctrl name='PDF document (*.pdf)' role='list item' />
+"
+Utils/DownloadImagesClick.xaml,ui:Target,,<wnd title='Save' aaname='Save' />
+Utils/GenerateCIM.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Data*' /><webctrl tag='DIV' />
+Utils/GenerateCIM.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' />
+Utils/GenerateCIM.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Data*' /><webctrl tag='DIV' />
+Utils/GenerateCIM.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='1' title='OK' />
+Utils/GenerateCIM.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='1' title='OK' />
+Utils/GenerateCIM.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='System has successfully generated alert* ' />
+Utils/GenerateCIM.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='TD' aaname='*accepts only eWPX alerts*' />
+Utils/GenerateCIM.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tableCol='2' tableRow='3' tag='TD' idx='1' />
+Utils/GetData.xaml,ui:BrowserScope,Attach Data Cleansing Record,<html app='{{in_UiApp}}' title='D*' />
+Utils/GetInformation.xaml,ui:Target,,"<html app='msedge.exe' title='D*' />
+<webctrl isleaf='1' aaname='*Supervisor*' />
+"
+Utils/GetLineDescriptions.xaml,ui:WindowScope,Attach Window 'iexplore.exe Data',<html title='D*' />
+Utils/GetLineDescriptions.xaml,ui:Target,,<html title='Data Compliance * Classification' /><webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+Utils/LineItemCurrencyConversion.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Utils/LineItemCurrencyConversion.xaml,ui:Target,,<webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+Utils/LineItemCurrencyConversion.xaml,ui:Target,,"[""<html title='D*' />""+
+""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.currencyCode' tag='INPUT' />""]"
+Utils/LineItemCurrencyConversion.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.currencyCode' tag='INPUT' />
+Utils/LineItemCurrencyConversion.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strValue' tag='INPUT' />
+Utils/LineItemCurrencyConversion.xaml,ui:Target,,"[""<html title='D*' />""+
+""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.strValue' tag='INPUT' />""]"
+Utils/LineItemCurrencyConversion.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.currencyCode' tag='INPUT' />
+Utils/LineItemCurrencyConversion.xaml,ui:Target,,<webctrl name='shipmentVO.lineItemVOCol[{{count}}].lineItemPortVO.strValue' tag='INPUT' />
+Utils/LineItemCurrencyConversion.xaml,ui:Target,,"[""<html title='D*' />""+
+""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.currencyCode' tag='INPUT' />""]"
+Utils/LineItemCurrencyConversion.xaml,ui:Target,,"[""<html title='D*' />""+
+""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.strValue' tag='INPUT' />""]"
+Utils/NavToUserAccess.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' title='Internet Explorer' />
+Utils/NavToUserAccess.xaml,ui:Target,,<wnd app='jp2launcher.exe' cls='SunAwtDialog' title='Java Application Blocked' />
+Utils/NavToUserAccess.xaml,ui:BrowserScope,Attach DCC Login,<html app='{{in_UiApp}}' title='D*' />
+Utils/NavToUserAccess.xaml,ui:Target,,<webctrl tag='SPAN' aaname='Setup' />
+Utils/NavToUserAccess.xaml,ui:Target,,<webctrl aaname='User Access' tag='DIV' />
+Utils/NavToUserAccess.xaml,ui:Target,,<webctrl aaname='User Access' tag='DIV' />
+Utils/NavToUserAccess.xaml,ui:Target,,<webctrl aaname='User in' />
+Utils/NavToUserAccess.xaml,ui:Target,,<webctrl id='userTable' tag='TABLE' />
+Utils/NavToUserAccess.xaml,ui:Target,,"[""<webctrl tag='TD' aaname='""+ accountToUnlock+"" ' />""]"
+Utils/NavToUserAccess.xaml,ui:Target,,<webctrl tag='SPAN' aaname='EndSession' />
+Utils/NavToUserAccess.xaml,ui:Target,,<webctrl tag='SPAN' aaname='EndSession' />
+Utils/NavToUserAccess.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' /><wnd aaname='OK' />
+Utils/OpenWebsiteModern.xaml,ui:Target,,<html app='{{in_uiApp}}' title='{{in_title}}' /><webctrl tableRow='4' tag='TABLE' /><webctrl tag='TD' aaname='User ID:' />
+Utils/OpenWebsiteModern.xaml,ui:Target,,"[string.Format(""<wnd app='{0}' title='{1}' /><ctrl name='Close' role='push button' />"", in_uiApp, in_title)]"
+Utils/ProcessInputSearchSerasa.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' url='https://infobusca.serasa.com.br/default.aspx' />
+Utils/ProcessInputSearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_txtNome' tag='INPUT' />
+Utils/ProcessInputSearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_txtCidade' tag='INPUT' />
+Utils/ProcessInputSearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_txtDDD' tag='INPUT' />
+Utils/ProcessInputSearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_txtTelefone' tag='INPUT' />
+Utils/ProcessInputSearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_txtCEP' tag='INPUT' />
+Utils/ProcessInputSearchSerasa.xaml,ui:Target,,<webctrl id='ctl00_ContentPlaceHolder1_btnProcurar' type='submit' />
+Utils/ProcessInputSearchSerasa.xaml,ui:Target,,<webctrl tag='SPAN' aaname='A pesquisa retornou *' />
+Utils/SubmitAction.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Utils/SubmitAction.xaml,ui:Target,,<webctrl aaname='Next' idx='1' name='method' tag='INPUT' type='button' />
+Utils/SubmitAction.xaml,ui:Target,,"[""<webctrl tag='INPUT' aaname='""+in_submitAction+""' />""]"
+Utils/SubmitAction.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+Utils/SubmitAction.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='65535' />
+Utils/SubmitAction.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+Utils/SubmitAction.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+Utils/SubmitAction.xaml,ui:Target,,"[""<webctrl tag='INPUT' aaname='""+in_submitAction+""' />""]"
+Utils/SubmitAction.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' title='Message from webpage' /><wnd ctrlid='65535' />
+Utils/SubmitAction.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' />
+Utils/SubmitAction.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' />
+Utils/SubmitAction.xaml,ui:Target,,<wnd app='iexplor*' cls='#32770' />
+Utils/SubmitData.xaml,ui:BrowserScope,Attach Data Cleansing Record,<html app='{{in_UiApp}}' title='D*' />
+Utils/SubmitData.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Utils/SubmitData.xaml,ui:Target,,"[""<webctrl tag='INPUT' aaname='""+submitAction+""' />""]"
+Utils/SubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' title='Message from webpage' /><wnd ctrlid='65535' />
+Utils/SubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+Utils/SubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+Utils/SubmitData.xaml,ui:Target,,<wnd app='iexplore.exe' cls='#32770' />
+Utils/UnlockUsers.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Utils/UnlockUsers.xaml,ui:Target,,<webctrl tag='TD' aaname='User ID:' />
+Utils/UnlockUsers.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='FONT' aaname='*is already logged in or has logged out improperly in the last session ' />
+Utils/UnlockUsers.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl tag='FONT' aaname='Your session has expired. Please login again. ' />
+Utils/ValidateDescription.xaml,ui:Target,,<html app='{{in_UiApp}}' title='Data Compliance * Classification' /><webctrl id='lineItemTable' tag='TABLE' /><webctrl parentid='lineItemTable' tag='TBODY' />
+Utils/ValidateDescription.xaml,ui:Target,,<html app='{{in_UiApp}}' title='D*' /><webctrl name='shipmentVO.lineItemVOCol[{{count}}].description' tag='TEXTAREA' />
+Work Instructions/WI_Pfizer_SIT_v1.xaml,ui:BrowserScope,Attach Browser,<html app='{{in_UiApp}}' title='D*' />
+Work Instructions/WI_Pfizer_SIT_v1.xaml,ui:Target,,<webctrl tag='TBODY' parentid='lineItemTable' /><webctrl tag='TABLE' parentid='lineItemTable' />
+Work Instructions/WI_Pfizer_SIT_v1.xaml,ui:Target,,"[""<webctrl tag='INPUT' type='text' name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.tariffCode' />""]"
+Work Instructions/WI_Pfizer_SIT_v1.xaml,ui:Target,,"[""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.ECCN' tag='INPUT' />""]"
+Work Instructions/WI_Pfizer_SIT_v1.xaml,ui:Target,,"[""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.currencyCode' tag='INPUT' />""]"
+Work Instructions/WI_Pfizer_SIT_v1.xaml,ui:Target,,"[""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].strQuantity' tag='INPUT' />""]"
+Work Instructions/WI_Pfizer_SIT_v1.xaml,ui:Target,,"[""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.uomAndUomSystem' tag='SELECT' />""]"
+Work Instructions/WI_Pfizer_SIT_v1.xaml,ui:Target,,"[""<webctrl name='shipmentVO.lineItemVOCol[""+count.ToString+""].lineItemPortVO.strValue' tag='INPUT' />""]"
+_Test1.xaml,ui:Target,,<wnd app='chrome*' />
