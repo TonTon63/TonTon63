@@ -40,9 +40,8 @@ Source code for these projects is private, so here are sections of the live site
 
 ### Vanguard Gaming
 <p>
-  <img src="assets/screenshots/vanguard-gaming-home.jpg" alt="Vanguard Gaming home page with search" width="32%">
-  <img src="assets/screenshots/vanguard-gaming-catalog.jpg" alt="Vanguard Gaming top-selling products" width="32%">
-  <img src="assets/screenshots/vanguard-gaming-pc-builder.jpg" alt="Vanguard Gaming PC builder call to action" width="32%">
+  <img src="assets/screenshots/vanguard-gaming-home.jpg" alt="Vanguard Gaming home page with search" width="48%">
+  <img src="assets/screenshots/vanguard-gaming-pc-builder.jpg" alt="Vanguard Gaming PC builder call to action" width="48%">
 </p>
 
 ## Technologies
