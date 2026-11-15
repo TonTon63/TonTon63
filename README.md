@@ -17,8 +17,6 @@ My recent work includes a bilingual tour-operator website with an admin panel an
 | **MountainHikingCR** | Website and admin panel for a guided hiking tour operator in Costa Rica: tour catalog, bilingual content (Spanish / English), WhatsApp contact, surveys and a protected admin area with two-factor authentication. | Next.js 16, React 19, TypeScript, Prisma, PostgreSQL (Neon), NextAuth, Tailwind CSS 4, Vercel | [mountainhikingcr.com](https://mountainhikingcr.com) (source code is private) |
 | **Vanguard Gaming** | Technology store for Costa Rica: product catalog, filters, PC builder, cart with WhatsApp checkout, customer accounts and an admin panel. Currently in development (the production site shows an "under construction" page). | Next.js 16, React 19, TypeScript, Prisma 7, PostgreSQL (Neon), Auth.js v5, Tailwind CSS 4, Vitest, Playwright | Source code is private |
 
-I also built an earlier e-commerce project in ASP.NET MVC (TechStore CR) with user login (Identity), an admin panel, a shopping cart and a SQL Server database.
-
 ## Technologies
 
 - **Languages:** TypeScript, JavaScript, C#, SQL, HTML5, CSS3
