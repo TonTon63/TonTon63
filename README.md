@@ -38,6 +38,13 @@ Source code for these projects is private, so here are sections of the live site
   <img src="assets/screenshots/fundaproemi-faq.jpg" alt="FUNDAPROEMI frequently asked questions" width="32%">
 </p>
 
+### Vanguard Gaming
+<p>
+  <img src="assets/screenshots/vanguard-gaming-home.jpg" alt="Vanguard Gaming home page with search" width="32%">
+  <img src="assets/screenshots/vanguard-gaming-catalog.jpg" alt="Vanguard Gaming top-selling products" width="32%">
+  <img src="assets/screenshots/vanguard-gaming-pc-builder.jpg" alt="Vanguard Gaming PC builder call to action" width="32%">
+</p>
+
 ## Technologies
 
 - **Languages:** TypeScript, JavaScript, C#, SQL, HTML5, CSS3
