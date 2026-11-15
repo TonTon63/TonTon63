@@ -6,9 +6,9 @@ Information Systems Engineering student in Costa Rica, focused on full-stack web
 
 ## About me
 
-I'm a B.Eng. student in Information Systems Engineering. I build web applications with **Next.js, React and TypeScript** (PostgreSQL with Prisma) as well as with **C#, ASP.NET MVC and SQL Server**.
+I'm a B.Eng. student in Information Systems Engineering. I build web applications with **Next.js, React and TypeScript** (PostgreSQL with Prisma) and I have used **C#, ASP.NET MVC and SQL Server** in university coursework.
 
-I designed and developed three production websites: a bilingual tour-operator website, a nonprofit website with PayPal donations and an admin panel, and a technology storefront with a cart, WhatsApp checkout and an admin dashboard. I'm currently looking for an internship where I can apply what I know, learn in a professional environment and grow as a developer.
+I designed and developed three websites: a bilingual tour-operator website, a nonprofit website with PayPal donations and an admin panel, and a technology storefront with a cart, WhatsApp checkout and an admin dashboard. I'm currently looking for an internship where I can apply what I know, learn in a professional environment and grow as a developer.
 
 ## Featured projects
 
@@ -46,9 +46,9 @@ Source code for these projects is private, so here are sections of the live site
 
 ## Technologies
 
-- **Languages:** TypeScript, JavaScript, C#, SQL, HTML5, CSS3
+- **Languages:** TypeScript, JavaScript, C# (university coursework), SQL, HTML5, CSS3
 - **Front end:** React, Next.js, Tailwind CSS, Bootstrap
-- **Back end:** Next.js (App Router, server actions, route handlers), ASP.NET MVC / ASP.NET Core
+- **Back end:** Next.js (App Router, server actions, route handlers), ASP.NET MVC / ASP.NET Core (university coursework)
 - **Databases and services:** PostgreSQL (Neon, Supabase), SQL Server, Prisma, Upstash Redis, PayPal, Resend
 - **Testing and tooling:** Vitest, Playwright, ESLint, Git and GitHub, GitHub Actions
 - **Deployment:** Vercel
