@@ -62,4 +62,4 @@ Source code for these projects is private, so here are sections of the live site
 ## Languages
 
 - Spanish: native
-- English: intermediate (B1-B2)
+- English: upper intermediate (B2)
