@@ -8,9 +8,11 @@ Information Systems Engineering student in Costa Rica, focused on full-stack web
 
 I'm a B.Eng. student in Information Systems Engineering. I build web applications with **Next.js, React and TypeScript** (PostgreSQL with Prisma) as well as with **C#, ASP.NET MVC and SQL Server**.
 
-My recent work includes a bilingual tour-operator website, a nonprofit website with PayPal donations and an admin panel, and a technology storefront with a cart, WhatsApp checkout and an admin dashboard. I'm currently looking for an internship where I can apply what I know, learn in a professional environment and grow as a developer.
+I designed and developed three production websites: a bilingual tour-operator website, a nonprofit website with PayPal donations and an admin panel, and a technology storefront with a cart, WhatsApp checkout and an admin dashboard. I'm currently looking for an internship where I can apply what I know, learn in a professional environment and grow as a developer.
 
 ## Featured projects
+
+All three sites below were designed and developed by me.
 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
