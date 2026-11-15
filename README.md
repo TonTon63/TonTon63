@@ -20,6 +20,24 @@ All three sites below were designed and developed by me.
 | **Vanguard Gaming** | Technology store for Costa Rica: product catalog, filters, PC builder with compatibility checks, cart with WhatsApp checkout, customer accounts, reviews and an admin panel. | Next.js 16, React 19, TypeScript, Prisma 7, PostgreSQL (Neon), Auth.js v5, Tailwind CSS 4, Vitest, Playwright | [vanguardgamingcr.com](https://vanguardgamingcr.com) (source code is private) |
 | **FUNDAPROEMI** | Bilingual (Spanish / English) website for a nonprofit in Alajuela, Costa Rica that offers free legal assistance to migrants: services, stories of impact, FAQ, contact form, PayPal donations and an admin panel (password + 2FA) to manage stories, the home banner and donation history. | Next.js 16, React 19, TypeScript, Tailwind CSS 4, next-intl, Supabase (Postgres + Storage), Upstash Redis, PayPal, Resend, Vitest, GitHub Actions, Vercel | [fundaproemi.org](https://www.fundaproemi.org) (source code is private) |
 
+## Screenshots
+
+Source code for these projects is private, so here are sections of the live sites (desktop view).
+
+### MountainHikingCR
+<p>
+  <img src="assets/screenshots/mountainhikingcr-home.jpg" alt="MountainHikingCR home page with hero section" width="32%">
+  <img src="assets/screenshots/mountainhikingcr-tours.jpg" alt="MountainHikingCR featured tours" width="32%">
+  <img src="assets/screenshots/mountainhikingcr-booking.jpg" alt="MountainHikingCR booking steps" width="32%">
+</p>
+
+### FUNDAPROEMI
+<p>
+  <img src="assets/screenshots/fundaproemi-home.jpg" alt="FUNDAPROEMI home page with donation widget" width="32%">
+  <img src="assets/screenshots/fundaproemi-services.jpg" alt="FUNDAPROEMI legal services section" width="32%">
+  <img src="assets/screenshots/fundaproemi-faq.jpg" alt="FUNDAPROEMI frequently asked questions" width="32%">
+</p>
+
 ## Technologies
 
 - **Languages:** TypeScript, JavaScript, C#, SQL, HTML5, CSS3
